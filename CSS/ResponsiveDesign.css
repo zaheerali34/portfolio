@@ -1,0 +1,268 @@
+@media (max-width: 950px) {
+  .projectBox .box {
+    width: 100%;
+    height: 100vh;
+  }
+}
+
+@media (max-width: 748px) {
+  .header {
+    width: 35rem;
+  }
+
+  .menu_Section {
+    width: 35rem;
+  }
+
+  .wrapper .content h1 {
+    font-size: 11vw;
+    line-height: 10vw;
+  }
+
+  .wrapper .content p {
+    width: 80%;
+    font-size: 1.2rem;
+    margin: -1rem 0;
+  }
+
+  .wrapper .content h4 {
+    padding-top: 3rem;
+  }
+
+  .menu_Section .boxTop {
+    display: block;
+  }
+
+  .boxTop .box {
+    width: 100%;
+    height: 90px;
+    margin-top: 1rem;
+  }
+
+  .menu_Section .bottom {
+    width: 100%;
+    height: 90px;
+  }
+
+  .box .nav h2 {
+    font-size: 1.8rem;
+  }
+
+  .myProject {
+    padding: 5rem 2rem;
+  }
+
+  .projectBox .box {
+    border-radius: 20px;
+  }
+
+  .projectBox .box img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 450px) {
+  .header {
+    width: 22rem;
+  }
+
+  .menu_Section {
+    width: 22rem;
+  }
+
+  .wrapper .content h2 {
+    font-size: 20px;
+  }
+
+  .wrapper .content p {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+
+  .projectBox .box {
+    width: 100%;
+    height: 80vh;
+  }
+
+  .myProject {
+    padding: 5rem 1rem;
+  }
+
+  .projectBox .box img {
+    width: 70%;
+  }
+}
+
+/* Responsive Styles for Skills Section */
+@media (max-width: 1200px) {
+  .skillsContainer {
+    height: auto;
+    padding: 4rem 2rem;
+  }
+  
+  .skillsBox .top {
+    gap: 20px;
+  }
+  
+  .skillsBox .top .skills {
+    width: 180px;
+  }
+}
+
+@media (max-width: 950px) {
+  .skillsContainer h1 {
+    font-size: 6vw;
+  }
+  
+  .skillsBox .top {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .skillsBox .top .skills {
+    width: 160px;
+  }
+}
+
+@media (max-width: 748px) {
+  .skillsContainer {
+    padding: 3rem 1rem;
+  }
+  
+  .skillsContainer h1 {
+    font-size: 8vw;
+  }
+  
+  .skillsContainer p {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  .skillsBox {
+    margin-top: 2rem;
+  }
+  
+  .skillsBox .top {
+    gap: 15px;
+  }
+  
+  .skillsBox .top .skills {
+    width: 140px;
+  }
+  
+  .skills img {
+    width: 70px;
+  }
+  
+  .skills h3 {
+    font-size: 1.1rem;
+    padding: 0.7rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .skillsContainer h1 {
+    font-size: 10vw;
+  }
+  
+  .skillsContainer p {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+  
+  .skillsBox .top {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .skillsBox .top .skills {
+    width: calc(50% - 10px);
+    margin-bottom: 10px;
+  }
+  
+  .skills img {
+    width: 60px;
+  }
+  
+  .skills h3 {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+}
+
+/* Responsive Styles for Contact Form Section */
+@media (max-width: 1200px) {
+  .contactContainer {
+    padding: 4rem 2rem;
+  }
+  
+  .contactForm {
+    width: 80%;
+  }
+}
+
+@media (max-width: 950px) {
+  .contactContainer h1 {
+    font-size: 6vw;
+  }
+  
+  .contactForm {
+    width: 90%;
+  }
+}
+
+@media (max-width: 748px) {
+  .contactContainer {
+    padding: 3rem 1rem;
+  }
+  
+  .contactContainer h1 {
+    font-size: 8vw;
+  }
+  
+  .contactContainer p {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  .contactForm {
+    width: 95%;
+    padding: 2rem;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .form-group label {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .contactContainer h1 {
+    font-size: 10vw;
+  }
+  
+  .contactContainer p {
+    font-size: 1rem;
+  }
+  
+  .contactForm {
+    padding: 1.5rem;
+  }
+  
+  .form-group {
+    margin-bottom: 0.8rem;
+  }
+  
+  .form-group label {
+    font-size: 0.9rem;
+  }
+  
+  .form-submit {
+    padding: 0.8rem 1.5rem;
+  }
+}
