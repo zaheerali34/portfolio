@@ -10,16 +10,18 @@ import Footer from "./Footer";
 
 export function LandingPage() {
   return (
-    <div className="w-full h-full rounded-md flex md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden px-6">
+    <div className="w-full min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-x-hidden">
       <Spotlight />
-      <div className="max-w-3xl h-full">
-        <Header />
-        <Home />
-        <About />
-        <Skills />
-        <WorkExperience />
-        <Project />
-        <Footer />
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-4xl mx-auto">
+          <Header />
+          <Home />
+          <About />
+          <Skills />
+          <WorkExperience />
+          <Project />
+          <Footer />
+        </div>
       </div>
     </div>
   );
