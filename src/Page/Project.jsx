@@ -18,7 +18,7 @@ function Project() {
 
         <div className="space-y-6 sm:space-y-8">
         <CardSpotlight className="w-full rounded-2xl relative p-4 sm:p-6 lg:p-8">
-          <div className="flex flex-col lg:flex-row gap-4 sm:gap-6 lg:gap-8">
+          <div className="flex flex-col lg:flex-row gap-4 sm:gap-6 lg:gap-8 z-10">
             <div className="flex-1 z-50 space-y-4">
               <h3 className="text-white font-bold text-lg sm:text-xl md:text-2xl">
                 Notion Clone Web App
@@ -53,11 +53,11 @@ function Project() {
               </div>
             </div>
 
-            <div className="flex-shrink-0 lg:w-80">
+            <div className="flex-shrink-0 lg:w-80 z-50">
               <img
                 src="https://www.notion.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fspoqsaf9291f%2F5C7NtlBoB6HzY8XIoDIHnf%2F88df067473d442a90d7798683a08cccc%2Fin_app_gallery.png&w=3840&q=75"
                 alt="Notion Clone Project Screenshot"
-                className="w-full h-auto rounded-lg shadow-lg z-50"
+                className="w-full h-auto rounded-lg shadow-lg"
               />
             </div>
           </div>
@@ -99,7 +99,7 @@ function Project() {
               </div>
             </div>
 
-            <div className="flex-shrink-0 lg:w-80">
+            <div className="flex-shrink-0 lg:w-80 z-50">
               <img
                 src={ImageTwo}
                 alt="E-Commerce Project Screenshot"
@@ -143,7 +143,7 @@ function Project() {
               </div>
             </div>
 
-            <div className="flex-shrink-0 lg:w-80">
+            <div className="flex-shrink-0 lg:w-80 z-50">
               <img
                 src={imageThree}
                 alt="Landing Page Project Screenshot"
@@ -163,12 +163,12 @@ function Project() {
                 Created a dynamic, interactive feed showcasing user home pages with responsive design. 
                 Designed a user profile interface displaying personal details, skills, and activity history.
               </p>
-              <div className="flex flex-col sm:flex-row gap-3 pt-2">
+               <div className="flex flex-col sm:flex-row gap-3 pt-2">
                 <a
-                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center gap-2 px-4 py-2 bg-gray-900 hover:bg-gray-800 rounded-lg text-white font-medium transition-all duration-300 text-sm opacity-75 cursor-not-allowed"
+                  href="https://github.com/zaheerali34/Project-Magma-HTML-CSS-JS"
+                  className="flex items-center justify-center gap-2 px-4 py-2 bg-gray-900 hover:bg-gray-800 rounded-lg text-white font-medium transition-all duration-300 text-sm"
                 >
                   <Github className="w-4 h-4" />
                   <span>GitHub</span>
@@ -176,18 +176,18 @@ function Project() {
                 </a>
 
                 <a
-                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center gap-2 px-4 py-2 bg-gray-600 hover:bg-gray-700 rounded-lg text-white font-medium transition-all duration-300 text-sm opacity-75 cursor-not-allowed"
+                  href="https://projectmagma.netlify.app/"
+                  className="flex items-center justify-center gap-2 px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded-lg text-white font-medium transition-all duration-300 text-sm"
                 >
-                  <span>Coming Soon</span>
+                  <span>Live Demo</span>
                   <ExternalLink className="w-3 h-3" />
                 </a>
               </div>
             </div>
 
-            <div className="flex-shrink-0 lg:w-80">
+            <div className="flex-shrink-0 lg:w-80 z-50">
               <img
                 src={imageFour}
                 alt="Magma Clone Project Screenshot"
